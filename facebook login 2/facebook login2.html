@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>facebooklogin2</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="facebook login.css">
+</head>
+<body>
+<script>
+
+function print123()
+{
+	var username=document.reg.user.value;
+	var password=document.reg.pass.value;
+	if (username.length<=0)
+	{
+		document.getElementById("lab1").innerHTML="Name must be more than 3";
+
+	}
+	if (password.length>=13)
+	{
+		document.getElementById("lab2").innerHTML="password must be 8-13";
+
+	}	
+
+	
+
+
+
+}	
+</script>
+
+
+<div class="container-fluid header">
+<div class="container">
+<div class="row">
+<div class="col-md-offset-0 col-md-3 col-sm-12 col-sm-offset-0">
+<img class="img-responsive" src="facebook1.jpg">
+</div>
+
+<div class="signupbt btn col-md-offset-0 col-md-1 hidden-xs">
+<input type="button" class="btn btn-success loginbtn" value="Sign up">
+</div>
+</div>
+</div>
+<form name="reg">
+<div class="row">
+<div class="container-fluid back">
+<div class="container">
+<div class="content col-md-offset-3 col-md-6 col-md-offset-3">
+<div class="col-md-offset-0 col-md-12 col-sm-12">
+<h4>Facebook login</h4>
+<hr></hr></div>
+<div class="row">
+<div class="col-md-offset-0 col-md-4 col-sm-12 col-sm-offset-0">
+<h5 class="logas">Email or Phone :</h5></div>
+	<div class="col-md-7 col-sm-12">
+	<input type="text" placeholder="Username" name="user"><label id="lab1"></label>
+	</div></div>
+
+
+	<div class="row">
+	<div class="col-md-offset-0 col-md-4 col-sm-12">
+		<h5 class="pass">Password:</h5>
+	</div>
+	<div class="col-md-6 col-sm-12">
+		<input type="Password" placeholder="Password" name="pass"><label id="lab2"></label>
+	</div>
+	</div>
+
+	<div class="row">
+	<div class="col-md-offset-4 col-md-5">
+		<input type="radio">&nbspKeep me logged in
+	
+	</div>
+	</div>
+
+<div class="row">
+	<div class="col-md-offset-4 col-md-6 login">
+	<input type="button" class="btn btn-primary loginbtn" value="Log In" onclick="print123()">&nbspor<span style="color: blue"> Sign up for facebook</span>
+	</div>
+	</div>
+
+<div class="row">
+	<div class="col-md-offset-4 col-md-5 col-sm-12 forget">
+	<span style="color: blue">Forgotten password?</span>
+	</div>
+	</div>
+		</div>
+		</div>
+		</div>
+		</div>
+</form>
+<div class="row">
+<div class="container-fluid footer">
+<div class="container">
+<div class="col-md-12 hidden-xs">
+ Sign Up | Log In |  Messenger | Facebook | Lite | Mobile |  Find Friends |  Badges |  People |  Pages | Places |  Games |
+ Locations |  Celebrities | Groups |  Moments | About | Create Advert | Create Page | Developers |  Careers | Privacy | Cookies|
+ AdChoices |  Terms Help |  Settings |  Activity Log <br><br><font align="center"> Facebook © 2016</font>
+	</div>
+	</div>
+	</div>
+	</div>
+
+</body>
+</html>
