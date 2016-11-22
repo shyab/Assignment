@@ -1,0 +1,67 @@
+.header
+{
+	background-color: #3b5997;
+	height: 75px;
+}
+.header img
+{
+	width: 250px;
+	height: 65px;
+	margin-top: 8px;
+}
+.back
+{
+	background: linear-gradient(#ffffff,#d4d9e9);
+	height: 600px;
+	width: 100%;
+}
+.signupbt
+{
+	margin-top: 30px;
+}
+.content
+{
+	background-color: white;
+	margin-top: 180px;
+	height: 330px;
+}
+.logas
+{
+	margin-left: 50px;
+}
+.pass
+{
+	margin-left: 50px;
+}
+.login
+{
+	padding-top: 4px;
+}
+.forget
+{
+	padding-top: 4px;
+}
+.footer
+{
+	background-color: white;
+}
+@media only screen and (max-width: 480px)
+{
+.back
+{
+	background: no-repeat;
+}
+.content
+{
+	margin-top: 50px;
+}
+.logas
+{
+	margin-left: 0px;
+}
+.pass
+{
+	margin-left: 0px;
+}
+
+}
