@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+{
+	var a= +prompt("Enter number");
+	setInterval(function(){
+		document.getElementById('result').innerHTML= a--;
+		if(a<0){
+			document.getElementById('result').innerHTML= "time out";
+		}
+	},1000);
+}
+</script>
+
+<label id="result"></label>
+
+</body>
+</html>
