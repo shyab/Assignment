@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+function timer()
+{
+	var a=parseInt(document.getElementById('txt').value);
+	setInterval(function(){
+		document.getElementById('result').innerHTML= a--;
+		if(a<0){
+			document.getElementById('result').innerHTML= "time out";
+		}
+	},1000);
+}
+</script>
+<input type="text" id="txt">
+<input type="button" value="Start Timer" onclick="timer()">
+<label id="result"></label>
+
+</body>
+</html>
