@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+function print123()
+{
+x= document.getElementsByName('mail')[0].value;
+        ats= x.indexOf("@");
+        dots= x.lastIndexOf(".");
+        if (ats<1 || dots<ats+2 || dots+2>=x.length) {
+        document.getElementById('mailerror').innerHTML="invalid mail";
+    }
+    }
+</script>
+<input type="email" name="mail" placeholder="Email" class="user1"><label id="mailerror"></label><br><br>
+<input type="button" value="Login" onclick="print123()">
+</body>
+</html>
