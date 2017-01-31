@@ -242,7 +242,6 @@ border-bottom-width: 1px;
 {
 	margin-top: 3px;
 	
-	
 }
 
 
@@ -283,7 +282,7 @@ border-bottom-width: 1px;
 .cftxt
 {
 	height: 30px;
-	width: 1090px;
+	width: 1070px;
 	margin-top: 2px;
 }
 .back
@@ -294,6 +293,68 @@ border-bottom-width: 1px;
 	height: 280px;
 	margin-top: 5px;
 }
+.menu-btn
+{
+	z-index: 99;
+    width: 30px;
+    float: right;
+    cursor: pointer;
+    margin-top: -245px;
+    position: relative;
+}
+/*hospital 5*/
+.new
+{
+	margin-top: 5px;
+}
+
+/*hospital 6*/
+.head6
+{
+	background-color: #1f64d3;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.mrno
+{
+	background-color: #f2f5f9;
+	height: 50px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 5px;
+}
+
+.patient
+{
+	background-color: #f2f5f9;
+	height: 350px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 5px;
+}
+.contact
+{
+	background-color: #f2f5f9;
+	height: 120px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 5px;
+}
+
+.home-btn
+{
+	z-index: 99;
+    width: 30px;
+    float: right;
+    cursor: pointer;
+    margin-top: -380px;
+    position: relative;
+
+}
+
+
 
 
 @media only screen and (max-width: 480px)
@@ -315,6 +376,7 @@ border-bottom-width: 1px;
 	{
 		height: 0px;
 	}
+
 	
 	
 
