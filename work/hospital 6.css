@@ -1,0 +1,384 @@
+.header
+{
+	background-color: white;
+	height: 80px;
+	box-shadow: 1px 4px 1px #b6bac1;
+}
+.logo
+{
+	margin-top: 20px;
+}
+.ink
+{
+	text-decoration: none;
+
+}
+.imgs
+{
+	margin-top: 50px;
+}
+.labo
+{
+	margin-top: 4px;
+	height: 50px;
+    
+}
+.lab
+{
+	margin-top: 10px;
+}
+.button1
+{
+	background-color: black;
+	border: none;
+	border-radius: 4px;
+	color: white;
+}
+.computer
+{
+	background-color: lightgray;
+	height: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+.profile
+{
+	background-color: #25baf9;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+.bord
+{
+margin-top: -10px;	
+border-bottom-style: solid;
+border-bottom-color: white;
+border-bottom-width: 1px;
+
+}
+
+.name1
+{
+	height: 30px;
+}
+.txt1
+{
+	width: 180px;
+	border-radius: 4px;
+	margin-top: 3px;
+}
+.search
+{
+	margin-left: -18px;
+}
+.consult
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.doc
+{
+	font-weight: bold;
+	margin-top: 4px;
+}
+.aria
+{
+	width: 200px;
+	border-radius: 3px;
+	margin-top: 4px;
+}
+.check
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.box
+{
+
+	margin-top: 6px;
+}
+.button2
+{
+	background-color: #0b367c;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	margin-top: 1px;
+
+}
+.tab input
+{
+	margin-left: 15px;
+
+}
+.footer
+{
+	
+	margin-top: 2px;
+}
+/*hospital 2*/
+
+.application
+{
+	height: 100px;
+	box-shadow: 1px 3px 5px lightgray;
+}
+.box_blu
+{
+	background-color: #3db4cc;
+	margin-top: 25px;
+	height:50px;
+	margin-bottom: 25px;
+	box-shadow: 1px 5px 5px black; 
+}
+.st_ft
+{
+	text-align: center;
+}
+.style1
+{
+	margin-top: 10px;
+	font-size: 30px;
+	color: white;
+}
+.app
+{
+	font-weight: bold;
+	margin-top: 45px;
+}
+.bord2
+{
+margin-top: -10px;	
+border-bottom-style: solid;
+border-bottom-color: lightgray;
+border-bottom-width: 1px;
+
+}
+.indfont
+{
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/*hospital 3*/
+
+.relat
+{
+	background-color: #1650ad;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	margin-top: 2px;
+}
+.voice
+{
+	background-color: lightgray;
+	height: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.invoice
+{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.visit
+{
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #ebeef4;
+}
+.service
+{
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: lightgray;
+}
+.bill
+{
+	height: 300px;
+	background-color: #ebeef4;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 2px; 
+}
+.discount
+{
+	margin-top: 50px;
+}
+.billtxt
+{
+	width: 80px;
+	height: 20px;
+}
+.remark
+{
+	margin-top: 10px;
+}
+.patient
+{
+	margin-top: 20px;
+}
+.tabe
+{
+	width: 400px;
+	border: solid 1px;
+}
+
+/*hospital 4*/
+
+.labo2
+{
+	margin-top: 6px;
+	
+}
+.allergy
+{
+	margin-top: 3px;
+	
+}
+
+
+.div2
+{
+	height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	width: 210px;
+
+}
+.div3
+{
+	height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	width: 200px;
+
+}
+.plan
+{
+	margin-top: 4px;
+
+}
+.complaint
+{
+	margin-top: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+
+}
+.chief
+{
+	font-size: 16px;
+	margin-top: 6px;
+}
+.cftxt
+{
+	height: 30px;
+	width: 1070px;
+	margin-top: 2px;
+}
+.back
+{
+	margin-right: 10px;
+	margin-left: 10px;
+	border-style: groove;
+	height: 280px;
+	margin-top: 5px;
+}
+.menu-btn
+{
+	z-index: 99;
+    width: 30px;
+    float: right;
+    cursor: pointer;
+    margin-top: -245px;
+    position: relative;
+}
+/*hospital 5*/
+.new
+{
+	margin-top: 5px;
+}
+
+/*hospital 6*/
+.head6
+{
+	background-color: #1f64d3;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.mrno
+{
+	background-color: #f2f5f9;
+	height: 50px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 5px;
+}
+
+.patient
+{
+	background-color: #f2f5f9;
+	height: 350px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 5px;
+}
+.contact
+{
+	background-color: #f2f5f9;
+	height: 120px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 5px;
+}
+
+.home-btn
+{
+	z-index: 99;
+    width: 30px;
+    float: right;
+    cursor: pointer;
+    margin-top: -380px;
+    position: relative;
+
+}
+
+
+
+
+@media only screen and (max-width: 480px)
+{
+	.logo img 
+	{
+       margin: auto;
+	}
+	.computer
+	{
+		margin-top: 0px;
+	}
+	.aria
+	{
+		width: 100px;
+	}
+
+	.application
+	{
+		height: 0px;
+	}
+
+	
+	
+
+
+}
